@@ -15,7 +15,7 @@ const Header = () => {
           <a href="/">CONTACT</a>
         </div>
         <div className=" flex object-center  object-cover">
-          <img src={logo} alt="Logo" className="w-45 h-20 " />
+          <img src={logo} alt="Logo" className="w-45 h-15 " />
         </div>
         <div className="flex p-6 gap-10 object-end">
           <FontAwesomeIcon icon={faMagnifyingGlass} className="gray-500" />
