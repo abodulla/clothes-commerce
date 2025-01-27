@@ -3,7 +3,7 @@ import hero from "../assets/hero.png";
 const Hero = () => {
   return (
     <>
-      <div className="flex items-center justify-between bg-pink h-[600px] px-8">
+      <div className="flex items-center justify-between bg-pink h-[600px] px-8 m-7">
         {/* Left Content */}
         <div className="max-w-md">
           <p className="text-gray-500 text-sm uppercase">Women</p>

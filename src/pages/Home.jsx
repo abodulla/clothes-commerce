@@ -1,5 +1,6 @@
 import Header from "../components/common/Header";
 import Hero from "../components/Home/Hero";
+import ProductGrid from "../components/Home/ProductGrid";
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="">
         <Header />
         <Hero />
+        <ProductGrid />
       </div>
     </>
   );
