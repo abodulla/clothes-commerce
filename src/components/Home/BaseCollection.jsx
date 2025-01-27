@@ -4,7 +4,6 @@ import image_2 from "../assets/collection-01.jpg";
 const BaseCollection = () => {
   return (
     <div className="bg-white py-12">
-      {/* Image Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 lg:px-16">
         <div>
           <img
