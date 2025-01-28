@@ -5,6 +5,8 @@ import BaseCollection from "../components/Home/BaseCollection";
 import HeroSection from "../components/Home/HeroSection";
 import BaseColletion2 from "../components/Home/BaseColletion2";
 import ProductGrid2 from "../components/Home/ProductGrid2";
+import Review from "../components/Home/Review_Section";
+
 const Home = () => {
   return (
     <>
@@ -16,6 +18,7 @@ const Home = () => {
         <HeroSection />
         <BaseColletion2 />
         <ProductGrid2 />
+        <Review />
       </div>
     </>
   );
