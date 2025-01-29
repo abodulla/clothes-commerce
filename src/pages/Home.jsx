@@ -6,6 +6,7 @@ import HeroSection from "../components/Home/HeroSection";
 import BaseColletion2 from "../components/Home/BaseColletion2";
 import ProductGrid2 from "../components/Home/ProductGrid2";
 import Review from "../components/Home/Review_Section";
+import Categories from "../components/Home/Categories";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <BaseColletion2 />
         <ProductGrid2 />
         <Review />
+        <Categories />
       </div>
     </>
   );
