@@ -7,6 +7,7 @@ import BaseColletion2 from "../components/Home/BaseColletion2";
 import ProductGrid2 from "../components/Home/ProductGrid2";
 import Review from "../components/Home/Review_Section";
 import Categories from "../components/Home/Categories";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <ProductGrid2 />
         <Review />
         <Categories />
+        <Footer />
       </div>
     </>
   );
