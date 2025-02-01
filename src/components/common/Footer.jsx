@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-pink text-center py-10 h-80">
+    <footer className="bg-pink text-center py-10 h-80 mt-12">
       <h3 className="text-lg font-bold">
         Subscribe To Get Offers In Your Inbox
       </h3>

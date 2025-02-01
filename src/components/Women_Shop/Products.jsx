@@ -1,10 +1,6 @@
 import Product1 from "../assets/product-01.jpg";
-import Product2 from "../assets/product-02.jpg";
 import Product3 from "../assets/product-07.jpg";
-import Product4 from "../assets/product-09.jpg";
-import product5 from "../assets/product-05.jpg";
 import product6 from "../assets/product-06.jpg";
-import product7 from "../assets/product-03.jpg";
 import product8 from "../assets/product-08.jpg";
 
 const products = [
@@ -18,24 +14,6 @@ const products = [
     sizes: ["XS", "S", "M", "L", "XL"],
   },
   {
-    id: 2,
-    name: "T-Shirt Name 10",
-    price: "$33.00 – $36.00",
-    category: "MEN",
-    image: Product4,
-    colors: ["brown", "white"],
-    sizes: ["XS", "S", "M", "L", "XL"],
-  },
-  {
-    id: 3,
-    name: "T-Shirt Name 2",
-    price: "$22.00 – $27.00",
-    category: "MEN",
-    image: Product2,
-    colors: ["black", "white"],
-    sizes: ["XS", "S", "M", "L", "XL"],
-  },
-  {
     id: 4,
     name: "T-Shirt Name 3",
     price: "$32.00 – $34.00",
@@ -45,29 +23,11 @@ const products = [
     sizes: ["XS", "S", "M", "L", "XL"],
   },
   {
-    id: 5,
-    name: "T-Shirt Name 3",
-    price: "$32.00 – $34.00",
-    category: "MEN",
-    image: product5,
-    colors: ["black", "white"],
-    sizes: ["XS", "S", "M", "L", "XL"],
-  },
-  {
     id: 6,
     name: "T-Shirt Name 3",
     price: "$32.00 – $34.00",
     category: "WOMEN",
     image: product6,
-    colors: ["black", "white"],
-    sizes: ["XS", "S", "M", "L", "XL"],
-  },
-  {
-    id: 7,
-    name: "T-Shirt Name 3",
-    price: "$32.00 – $34.00",
-    category: "MEN",
-    image: product7,
     colors: ["black", "white"],
     sizes: ["XS", "S", "M", "L", "XL"],
   },
