@@ -1,4 +1,4 @@
-import product1 from "../assets/product-01-grid.jpg";
+import product1 from "../assets/product-01.jpg";
 import product2 from "../assets/product-05.jpg";
 import product3 from "../assets/product-03.jpg";
 import product4 from "../assets/product-08.jpg";
