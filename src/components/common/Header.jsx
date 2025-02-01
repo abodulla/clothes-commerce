@@ -10,8 +10,8 @@ const Header = () => {
         <div className=" pl-4 flex  gap-4 gray-900  items-center object-start ">
           <a href="/Shop">BUY T-SHIRTS</a>
           <a href="/Women">WOMEN</a>
-          <a href="/">MEN</a>
-          <a href="/">ABOUT</a>
+          <a href="/Men">MEN</a>
+          <a href="/About">ABOUT</a>
           <a href="/">CONTACT</a>
         </div>
         <div className=" flex object-center  object-cover">
