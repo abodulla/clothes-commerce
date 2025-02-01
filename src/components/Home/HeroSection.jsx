@@ -3,7 +3,7 @@ import backgroundImage from "../assets/bg-01.jpg"; // Replace with the correct p
 const HeroSection = () => {
   return (
     <div
-      className="relative bg-cover bg-center h-screen mr-10 ml-10"
+      className="relative bg-fixed bg-cover bg-center h-screen mr-10 ml-10"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
