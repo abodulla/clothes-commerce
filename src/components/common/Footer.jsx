@@ -1,3 +1,5 @@
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 export default function Footer() {
   return (
     <footer className="bg-pink text-center py-10 h-80 mt-12">
@@ -9,19 +11,19 @@ export default function Footer() {
       </p>
 
       <nav className="flex justify-center gap-6 my-4 text-gray-700">
-        <a href="#" className="hover:text-black">
+        <a href="/shop" className="hover:text-black">
           Buy T-Shirts
         </a>
-        <a href="#" className="hover:text-black">
+        <a href="/women" className="hover:text-black">
           Women
         </a>
-        <a href="#" className="hover:text-black">
+        <a href="/men" className="hover:text-black">
           Men
         </a>
-        <a href="#" className="hover:text-black">
+        <a href="/about" className="hover:text-black">
           About
         </a>
-        <a href="#" className="hover:text-black">
+        <a href="/contact" className="hover:text-black">
           Contact
         </a>
       </nav>
