@@ -5,27 +5,29 @@ const BaseCollection = () => {
   return (
     <>
       <div className="bg-white py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 lg:px-16">
-          <div>
+        {/* Image Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 lg:px-16">
+          <div className="flex justify-center">
             <img
               src={image_1}
               alt="Product 1"
-              className="w-95% h-90% object-cover ml-32"
+              className="w-full h-auto object-cover rounded-lg"
             />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img
               src={image_2}
               alt="Product 2"
-              className="w-95% h-90% object-cover"
+              className="w-full h-auto object-cover rounded-lg"
             />
           </div>
         </div>
 
-        <div className="relative flex justify-start ml-11">
-          <div className="absolute inset-y-[-250px] text-center ml-52 mt-10">
+        {/* Text and Button Section */}
+        <div className="relative flex justify-center mt-8">
+          <div className="absolute text-center md:text-left mt-10 px-4 md:px-0">
             <p className="text-gray-500 text-base tracking-wide">Men</p>
-            <h2 className="text-4xl font-bold mt-2 leading-relaxed">
+            <h2 className="text-3xl sm:text-4xl font-bold mt-2 leading-relaxed">
               The base collection - Ideal <br />
               every day.
             </h2>
