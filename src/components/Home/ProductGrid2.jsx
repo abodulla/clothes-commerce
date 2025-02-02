@@ -68,7 +68,7 @@ const ProductGrid2 = () => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="object-cover w-full h-80"
+                className="object-cover w-full h-auto"
               />
               <div className="absolute top-2 left-2 bg-white text-sm font-medium text-gray-700 rounded-full px-3 py-1">
                 {product.discount}

@@ -1,7 +1,8 @@
 import Product1 from "../assets/product-01.jpg";
-import Product3 from "../assets/product-07.jpg";
-import product6 from "../assets/product-06.jpg";
-import product8 from "../assets/product-08.jpg";
+import Product2 from "../assets/product-07.jpg";
+import product3 from "../assets/product-06.jpg";
+import product4 from "../assets/product-08.jpg";
+import product5 from "../assets/product-04.jpg";
 
 const products = [
   {
@@ -14,29 +15,40 @@ const products = [
     sizes: ["XS", "S", "M", "L", "XL"],
   },
   {
+    id: 2,
+    name: "T-Shirt Name 3",
+    price: "$32.00 – $34.00",
+    category: "WOMEN",
+    image: Product2,
+    colors: ["black", "white"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+  },
+  {
+    id: 3,
+    name: "T-Shirt Name 3",
+    price: "$32.00 – $34.00",
+    category: "WOMEN",
+    image: product5,
+    colors: ["black", "white"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+  },
+
+  {
     id: 4,
     name: "T-Shirt Name 3",
     price: "$32.00 – $34.00",
     category: "WOMEN",
-    image: Product3,
+    image: product4,
     colors: ["black", "white"],
     sizes: ["XS", "S", "M", "L", "XL"],
   },
+
   {
-    id: 6,
+    id: 5,
     name: "T-Shirt Name 3",
     price: "$32.00 – $34.00",
     category: "WOMEN",
-    image: product6,
-    colors: ["black", "white"],
-    sizes: ["XS", "S", "M", "L", "XL"],
-  },
-  {
-    id: 8,
-    name: "T-Shirt Name 3",
-    price: "$32.00 – $34.00",
-    category: "WOMEN",
-    image: product8,
+    image: product3,
     colors: ["black", "white"],
     sizes: ["XS", "S", "M", "L", "XL"],
   },
@@ -45,9 +57,9 @@ const products = [
 const Products = () => {
   return (
     <div className="container mx-auto px-4">
-      <div className="text-sm text-gray-500 mb-2">Home / Shop</div>
-      <h1 className="text-4xl font-bold mb-4">Shop</h1>
-      <p className="text-gray-600 mb-6">Showing 1–8 of 10 results</p>
+      <div className="text-sm text-gray-500 mb-2">Home / Women</div>
+      <h1 className="text-4xl font-bold mb-4">Women</h1>
+      <p className="text-gray-600 mb-6">Showing all 5 results</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (

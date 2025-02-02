@@ -45,8 +45,8 @@ const products = [
 const Products = () => {
   return (
     <div className="container mx-auto px-4">
-      <div className="text-sm text-gray-500 mb-2">Home / Shop</div>
-      <h1 className="text-4xl font-bold mb-4">Shop</h1>
+      <div className="text-sm text-gray-500 mb-2">Home / Men</div>
+      <h1 className="text-4xl font-bold mb-4">Men</h1>
       <p className="text-gray-600 mb-6">Showing 1–8 of 10 results</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
