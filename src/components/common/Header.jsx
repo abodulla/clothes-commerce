@@ -55,7 +55,7 @@ const Header = () => {
 
       {/* Mobile Menu Dropdown */}
       {menuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden">
+        <div className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden z-10">
           <a href="/Shop" className="py-2">
             BUY T-SHIRTS
           </a>
