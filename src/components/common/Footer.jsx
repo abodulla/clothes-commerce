@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Footer() {
   return (
-    <footer className="bg-pink text-center py-10 h-80 mt-12">
+    <footer className="bg-pink text-center py-10 h-80 m-10">
       <h3 className="text-lg font-bold">
         Subscribe To Get Offers In Your Inbox
       </h3>

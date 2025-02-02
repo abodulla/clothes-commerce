@@ -12,7 +12,7 @@ const Header = () => {
           <a href="/Women">WOMEN</a>
           <a href="/Men">MEN</a>
           <a href="/About">ABOUT</a>
-          <a href="/">CONTACT</a>
+          <a href="/Contact">CONTACT</a>
         </div>
         <div className=" flex object-center  object-cover">
           <a href="/">
